@@ -2,9 +2,7 @@ import * as ReactDOM from 'react-dom';
 import * as React from 'react';
 // @ts-ignore
 import ReactTable from "old-react-table";
-// @ts-ignore
-import { useFilters, useGlobalFilter, useSortBy, useTable } from 'react-table';
-
+import { useTable } from 'react-table';
 
 const OldTable = () => {
 
@@ -79,6 +77,7 @@ const NewTable = () => {
         []
     );
 
+    // @ts-ignore
     const tableInstance = useTable({ columns, data });
 
     const {
