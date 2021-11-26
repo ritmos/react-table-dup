@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "npx parcel src/index.html",
-    "build": "npx parcel build src/index.html",
+    "start": "npx webpack-dev-server --mode development",
+    "build": "npx webpack",
     "clean": "rm -rf node_modules dist"
   },
   "author": "",
@@ -23,7 +23,8 @@
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.2",
     "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
     "old-react-table": "*",

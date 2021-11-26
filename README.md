@@ -1,0 +1,1 @@
+This project demonstrates that react-table@6 and react-table@7 can coexist in the same bundle and html site as long as there is only @types/react-table@7 with tsc@4 not @types/react-table@6 (// @ts-ignore flag on import).
